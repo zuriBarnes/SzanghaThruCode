@@ -2,25 +2,28 @@
 /*	
     script_name: testing
     code-artist: Zuri Barnes
-    twitter: @zuriKiser
+    twitter: @zuriBarnes
     about: test for now, seems cool thus far.
 */
 
 // ======= Setup ======== //
 init();
-setTempo(125);
+var tempo = 93;
+setTempo(tempo);
 
 // ========= Loops ======= //
 function Loop_1() {
+    var loop_2 = CIARA_SET_DRUMBEAT_1;
     var loop_1 = TECHNO_MAINLOOP_019;
-    fitMedia(loop_1, 1, 1, 2.97);
-    fitMedia(loop_1, 1, 3, 17);
+    fitMedia(loop_2, 1, 1, 2.97);
+    fitMedia(loop_2, 1, 3, 17);
 }
 Loop_1();
 //  ======== Pads ======== //
 for(var i = 0; i <= 15; i += 2) {
     var darkPad = RD_TRAP_DARKPAD_1;
-    fitMedia(darkPad, 2, 1 + i, 1.5 + i);
+    var voicePad = CIARA_SET_TALK_ADLIB_LOFI_1;
+    fitMedia(voicePad, 2, 1 + i, 1.5 + i);
     // fitMedia(darkPad, 2, 3, 3.5);
     // fitMedia(darkPad, 2, 5, 5.5);
     // fitMedia(darkPad, 2, 7, 7.5);
@@ -31,6 +34,12 @@ for(var i = 0; i <= 15; i += 2) {
 // ============ Bass =========== //
 for(var i = 0; i <= 15; i += 2) {
     fitMedia(RD_TRAP_BASSDROPS_1, 3, 1 + i, 1.5 + i);
+}
+for(var i = 0; i <= 15; i += 2) {
+    fitMedia(CIARA_ROOTED_VOX_CHANT_2, 5, 1 + i, 2.94 + i);
+}
+for(var i = 0; i <= 15; i += 2) {
+    fitMedia(Y14_SYNTH_1, 6, 1 + i, 3 + i);
 }
 // fitMedia(RD_TRAP_BASSDROPS_1, 3, 1, 1.5);
 // fitMedia(RD_TRAP_BASSDROPS_1, 3, 3, 3.5);
