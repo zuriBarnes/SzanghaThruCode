@@ -1,6 +1,7 @@
 "use strict";
 /*	
     script_name: testing
+    start-date: 7/12/2021
     code-artist: Zuri Barnes
     twitter: @zuriBarnes
     about: test for now, seems cool thus far.
@@ -38,8 +39,11 @@ for(var i = 0; i <= 15; i += 2) {
 for(var i = 0; i <= 15; i += 2) {
     fitMedia(CIARA_ROOTED_VOX_CHANT_2, 5, 1 + i, 2.94 + i);
 }
-for(var i = 0; i <= 15; i += 2) {
-    fitMedia(Y14_SYNTH_1, 6, 1 + i, 3 + i);
+for(var i = 0; i <= 7; i += 2) {
+    fitMedia(Y14_SYNTH_1, 6, 9 + i, 11 + i);
+}
+for(var i = 0; i <= 7; i++) {
+    fitMedia(YG_ELECTRO_RHODES_1, 7, 9 + i, 10 + i);
 }
 // fitMedia(RD_TRAP_BASSDROPS_1, 3, 1, 1.5);
 // fitMedia(RD_TRAP_BASSDROPS_1, 3, 3, 3.5);
@@ -52,3 +56,4 @@ for(var i = 0; i <= 15; i += 2) {
 fitMedia(RD_ELECTRO_SFX_AIRPULSE_3, 4, 7, 7.5);
 
 finish();
+
