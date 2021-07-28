@@ -1,11 +1,15 @@
 "use strict";
 
-//		javascript code
-//		script_name:
-//
-//		author:
-//		description:
-//
+/*	
+    script_name: Loop_2
+    creation-date: 7/24/2021
+    code-artist: Zuri Barnes
+    twitter: @zuriBarnes
+    gitHub: https://github.com/zuriBarnes
+    about: loop_2
+    
+*/
+
 
 init();
 setTempo(160);
