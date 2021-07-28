@@ -1,0 +1,23 @@
+"use strict";
+
+//		javascript code
+//		script_name:
+//
+//		author:
+//		description:
+//
+
+init();
+setTempo(160);
+function runThis
+() {
+// setEffect(2, FILTER, FILTER_FREQ, 1000);
+// setEffect(3, FILTER, FILTER_FREQ, 1000);
+fitMedia(RD_POP_SOLODRUMPART_31, 1, 1, 13);
+fitMedia(YG_POP_FX_4, 2, 1, 13);
+fitMedia(RD_FUTURE_DUBSTEP_MAINBEAT_3, 3, 1, 13);
+fitMedia(YG_NEW_HIP_HOP_PAD_3, 4, 1, 13);
+}
+runThis();
+
+finish();
